@@ -1,0 +1,101 @@
+*{
+    padding: 0;
+    margin:0;
+}
+
+body{
+   /* background: darkred;*/
+}
+h1 {
+    font-size: 20pt;
+    font-family: "Helvetica";
+}
+#main{
+    background: floralwhite;
+}
+
+#header{
+    height: 225px;
+    background: aliceblue;
+    position: sticky;
+    top:0px;
+}
+
+#logo a {
+    background: url(images/logo1.PNG) no-repeat;
+    display: block;
+    text-indent: -100px;
+    width: 240px;
+    height: 150px;
+    float: left;
+    margin-left: 40px;
+    margin-top: 40px;
+}
+
+.menu-bar{
+    float: right;
+    margin-top: 180px;
+    background: #0b2e13;
+}
+.menu-bar ul{
+    list-style: none;
+}
+
+#nav {
+    display:inline-flex;
+    list-style: none;
+}
+
+.menu-bar ul li a{
+    font-family: Calibri;
+    font-size: 18px;
+    text-decoration: none;
+    padding: 10px;
+    background-color: midnightblue;
+    color: aliceblue;
+    text-align: center;
+    float: left;
+}
+
+.active, .menu-bar ul li a:hover{
+    background: darkred;
+    border-radius: 3px;
+}
+.sub-menu{
+    display: none;
+}
+
+.menu-bar ul li:hover .sub-menu{
+    display: block;
+    position: absolute;
+    background: midnightblue;
+    margin-top: 40px;
+    margin-left: -10px;
+    text-align: left;
+}
+
+#banner{
+    height: 650px;
+    width: 1000px;
+}
+
+#container{
+    width: 980px;
+    background: white;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0;
+}
+
+.headerLine {
+    background-color: #003263;
+    width: 70%;
+    padding-left: 15%;
+    padding-right: 15%;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+.headerLine h1 {
+    color: white;
+    margin: 0;
+}
